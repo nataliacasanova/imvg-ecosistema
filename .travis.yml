@@ -14,3 +14,10 @@ install:
 
 script:
   - mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=nataliacasanova -Dsonar.login=$SONAR
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU
+  on:
+    branch: master
+    #app: imvg-ecosistema , por defecto igual que el nombre de artefacto de GitHub
