@@ -26,7 +26,6 @@
             <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
-
     <properties>
         <!-- Encode -->
         <encoding>UTF-8</encoding>
