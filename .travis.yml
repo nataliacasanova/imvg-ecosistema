@@ -12,7 +12,5 @@ notifications:
     recipients:
       - n.casanova@alumnos.upm.es
 install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-
-before_install:
-  - chmod +x mvnw
+  - mvn -N io.takari:maven:wrapper
+  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
