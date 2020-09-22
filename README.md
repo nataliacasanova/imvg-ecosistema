@@ -7,6 +7,7 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-devops&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aimvg-ecosistema)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aimvg-ecosistema&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aimvg-ecosistema)
 [![BCH compliance](https://bettercodehub.com/edge/badge/nataliacasanova/imvg-ecosistema?branch=master)](https://bettercodehub.com/)
+[![Heroku broken](https://imvg-ecosistema.herokuapp.com/system/version-badge)](https://imvg-ecosistema.herokuapp.com/swagger-ui.html)
 
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo, **mediante consola**:
